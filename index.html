@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and drop</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="boxes">
+            <div class="box">
+                <button class="btn" id="inProgress">In Progress</button>
+                <div class="items" draggable="true"></div>
+                <div class="items" draggable="true"></div>
+            </div>
+            <div class="box">
+                <button class="btn" id="complete">Complete</button>
+                <div class="items" draggable="true"></div>
+
+            </div>
+            <div class="box">
+                <button class="btn" id="onHold">On Hold</button>
+                <div class="items" draggable="true"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./assets/app.js"></script>
+</body>
+
+</html>

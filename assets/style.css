@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url("./images/change.jpg");
+    background-size: cover;
+    opacity: 1; */
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    /* Jb hm flex direction column krty hain tw justify content align item ka kam krt hai or align item 
+    justify content ka kam krta hai.. like yeh opposite hojaty hain ek dusry se.. */
+    background-color: black;
+    border-radius: 10px;
+    /* opacity: .5; */
+    margin: 10px 10px;
+    width: 300px;
+    height: 300px;
+}
+.btn{
+    margin: 10px 0;
+    width: 90%;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 25px
+}
+.box #inProgress{
+    background-color: rgb(197, 128, 0);
+
+}
+.box #complete{
+    background-color: rgb(0, 209, 139);
+}
+.box #onHold{
+    background-color: rgb(109, 0, 0);
+}
+.items{
+    margin: 5px 0;
+    width: 90%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(109, 0, 0);
+    cursor: move;
+}
+.dragging{
+    opacity: .5;
+}
